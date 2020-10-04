@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 put("example4", "궁여지책");
             }}
     };
+
     int problemNumber = 1;
     String question = "";
     String answer = "";

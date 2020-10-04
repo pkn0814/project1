@@ -48,38 +48,13 @@
         app:layout_constraintTop_toBottomOf="@+id/totalCorrectTextView" />
 
     <Button
-        android:id="@+id/example4Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="332dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:text="Button"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/example3Button"
-        app:layout_constraintTop_toBottomOf="@+id/correctIncorrectTextView" />
-
-    <Button
-        android:id="@+id/example3Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="332dp"
-        android:text="Button"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toStartOf="@+id/example4Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/correctIncorrectTextView" />
-
-    <Button
         android:id="@+id/example1Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="252dp"
+        android:onClick="example1ButtonClicked"
         android:text="Button"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/example2Button"
@@ -93,10 +68,39 @@
         android:layout_marginTop="252dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
+        android:onClick="example2ButtonClicked"
         android:text="Button"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/example1Button"
+        app:layout_constraintTop_toBottomOf="@+id/correctIncorrectTextView" />
+
+    <Button
+        android:id="@+id/example3Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="332dp"
+        android:onClick="example3ButtonClicked"
+        android:text="Button"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/example4Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correctIncorrectTextView" />
+
+    <Button
+        android:id="@+id/example4Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="example4ButtonClicked"
+        android:text="Button"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/example3Button"
         app:layout_constraintTop_toBottomOf="@+id/correctIncorrectTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
