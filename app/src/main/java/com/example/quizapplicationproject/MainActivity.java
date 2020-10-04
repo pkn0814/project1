@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 put("example1", "낙화유수");
                 put("example2", "각주구검");
                 put("example3", "오매불망");
-                put("example4", "오리무중");
+                put("example4", "가담항설");
             }},
             new HashMap() {{
                 put("question", "거짓된 것을 참된 것처럼 보이게 하는 것으로 장난삼아 한 일이 진짜가 됨");
@@ -63,44 +63,44 @@ public class MainActivity extends AppCompatActivity {
                 put("example4", "곡학아세");
             }},
             new HashMap() {{
-                put("question", "5 + 4 = ?");
-                put("answer", "9");
-                put("example1", "8");
-                put("example2", "6");
-                put("example3", "7");
-                put("example4", "9");
+                put("question", "물건을 보면 갖고 싶은 욕심이 생김");
+                put("answer", "견물생심");
+                put("example1", "견위수명");
+                put("example2", "견물생심");
+                put("example3", "견토지쟁");
+                put("example4", "결자해지");
             }},
             new HashMap() {{
-                put("question", "4 + 4 = ?");
-                put("answer", "8");
-                put("example1", "7");
-                put("example2", "1");
-                put("example3", "8");
-                put("example4", "3");
+                put("question", "기름지고 맛있는 음식");
+                put("answer", "고량진미");
+                put("example1", "고량진미");
+                put("example2", "고식지계");
+                put("example3", "고장난명");
+                put("example4", "고군분투");
             }},
             new HashMap() {{
-                put("question", "2 + 5 = ?");
-                put("answer", "7");
-                put("example1", "7");
-                put("example2", "1");
-                put("example3", "5");
-                put("example4", "4");
+                put("question", "의심 받을 행동은 처음부터 해서는 안됨");
+                put("answer", "과전이하");
+                put("example1", "과대망상");
+                put("example2", "과유불급");
+                put("example3", "과전이하");
+                put("example4", "괄목상대");
             }},
             new HashMap() {{
-                put("question", "1 + 4 = ?");
-                put("answer", "5");
-                put("example1", "4");
-                put("example2", "5");
-                put("example3", "0");
-                put("example4", "6");
+                put("question", "남을 가르치거나 남에게 배우거나 모두 나의 학업을 증진시킨다");
+                put("answer", "교학상장");
+                put("example1", "구곡간장");
+                put("example2", "구미속초");
+                put("example3", "교학상장");
+                put("example4", "구사일생");
             }},
             new HashMap() {{
-                put("question", "3 + 1 = ?");
-                put("answer", "4");
-                put("example1", "8");
-                put("example2", "3");
-                put("example3", "4");
-                put("example4", "0");
+                put("question", "나라 안에 견줄 만 한 자가 없는 인재로 국내에서 가장 뛰어난 인물을 이르는 말");
+                put("answer", "국사무쌍");
+                put("example1", "군계일학");
+                put("example2", "국사무쌍");
+                put("example3", "군웅할거");
+                put("example4", "궁여지책");
             }}
     };
     int problemNumber = 1;
